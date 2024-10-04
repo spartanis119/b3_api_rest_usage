@@ -63,6 +63,10 @@ export const CatGalleryFetch = () => {
             <div className='card h-100 d-flex flex-column'>
               {/* Aseguramos que la imagen tenga un tamaño uniforme */}
               <img src={cat.url} className='fixed-img' alt="Cat" />
+              <div className='card-body'>
+                <h5 className='card-title'>Gatito {index + 1}</h5>
+                <p className='card-text'>¡Un lindo Gatito de nuestra galería!</p>
+              </div>
             </div>
           </div>
         ))}
